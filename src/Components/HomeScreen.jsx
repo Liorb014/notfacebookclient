@@ -10,7 +10,7 @@ function HomeScreen() {
             <Stack spacing={4} display="flex" padding={8} alignItems="center">
                <AppIcon size={140}/>
             <Typography variant="h5" component="h1">
-                welcome to our leading social-media we are not facebook we specialize in selling your data
+                welcome to our leading social-media we are not facebook
             </Typography>
                 <Button
                     sx={{textTransform: 'inherit'}}
