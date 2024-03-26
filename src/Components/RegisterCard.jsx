@@ -49,6 +49,8 @@ function RegisterCard() {
                  setError(Constant.USERNAME_OUT_OF_THE_REQUIREMENTS_ERROR)
              }else if(result===Constant.ERROR_CODE_PASSWORD_OUT_OF_THE_REQUIREMENTS){
                  setError(Constant.PASSWORD_OUT_OF_THE_REQUIREMENTS_ERROR)
+             }else if(result===true){
+                 navigate(Constant.LOGIN_URL)
              }
          });
     }
